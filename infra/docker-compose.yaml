@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: chekunkovivan/yamdb:v3
+    image: chekunkovivan/yamdb:v4
     restart: always
     volumes:
       - static_value:/app/static/
